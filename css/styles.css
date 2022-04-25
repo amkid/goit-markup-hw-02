@@ -31,7 +31,6 @@ body {
 }
 .header-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -46,7 +45,8 @@ body {
   letter-spacing: 0.03em;
   color: #2196F3;
 }
-.current, .active {
+.current, 
+.active {
   color: var(--accent-color);
 }
 
@@ -56,6 +56,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  cursor: pointer;
   color: var(--first-title-color);
 }
 
@@ -111,6 +112,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
   color: #ffffff;
   background-color: #2196f3;
 }
@@ -193,23 +195,38 @@ body {
 }
 
 /* ----------portfolio-filters--------- */
-
+.filters-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--first-title-color);
+  background: #F5F4FA;
+}
+.filters-button:hover,
+.filters-button:focus {
+  color: #FFFFFF;
+  background: #2196F3;
+}
 /* ----------portfolio-projects--------- */
 .projects-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--second-title-color);
+  color: var(--first-title-color);
 }
 .projects-txt {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--txt-color);
 }
 .footer-adress:hover,
 .footer-adress:focus,
