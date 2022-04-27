@@ -72,7 +72,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--txt-color);
 }
@@ -122,7 +122,7 @@ body {
 /*-----------abt-----------*/
 
 .abt-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.03em;
@@ -130,7 +130,7 @@ body {
   color: var(--first-title-color);
 }
 .abt-txt {
-  font-weight: 900;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -138,7 +138,7 @@ body {
 }
 .abt-img-title,
 .team-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
   line-height: 0.857;
   text-align: center;
@@ -178,16 +178,16 @@ body {
 }
 .footer-adress {
   font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
+  font-style:normal;
   line-height: 1.71;
   color: #FFFFFF;
 }
 .footer-mail,
 .footer-tel {
   font-family: Roboto;
-  font-weight: 400;
   font-size: 14px;
+  font-style:normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
