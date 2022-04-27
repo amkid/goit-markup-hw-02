@@ -146,6 +146,9 @@ body {
   color: var(--first-title-color);
 }
 /* ----------team--------- */
+.team {
+  background: #F5F4FA;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
